@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>masteralb</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img class="img" src="images/logo.png">
+		</div>
+	</header>
+	<div class="container">
+		<div class="col-main">
+			<section class="form register">
+				<h3>Register Form</h3>
+				<div class="form-container">
+					<form action="index.html" method="get">
+						<input type="text" name="username" id="register-user" placeholder="Username" required>
+						<input type="password" name="password" id="register-password" placeholder="Password" required>
+						<input type="password" name="con-password" id="register-password" placeholder="Confirm Password" required>
+						<input type="text" name="email" id="register-email" placeholder="Email" required>
+						<input type="text" name="location" id="register-location" placeholder="Your Location" required>
+						<label id for="register-checkbox"><input id="register-checkbox" type="checkbox" value="accept" required> I have read and accept the terms of use.</label> 
+						<input type="submit" class="defaul" value="Sign up">
+					</form>
+				</div>
+			</section>
+			<section class="form send">
+				<h3>Send Email</h3>
+				<div class="form-container">
+					<form>
+						<input type="text" name="username" id="send-user" placeholder="Your Name">
+						<input type="text" name="email" id="send-email" placeholder="Your Email">
+						<textarea placeholder="Type your message..."></textarea>
+						<label for="register-checkbox"><input type="checkbox" required> Send a copyto my Email</label> 
+						<input type="submit" class="defaul" value="Send Email">
+						
+					</form>
+				</div>
+			</section>
+		</div>
+		<div class="col-main">
+			<section class="form sign">
+				<h3>Sign In Form</h3>
+				<div class="form-container">
+					<form>
+						<input type="text" name="username" id="sign-user" placeholder="Username">
+						<input type="password" name="password" id="sign-password" placeholder="Password">
+						<label><input id="sing-in-checkbox" type="checkbox" value="accept" required> Remember me</label> 
+						<input type="submit" class="defaul" value="Sign in">
+					</form>	
+				</div>	
+			</section>
+			<section class="form recover">
+				<h3>Recover Form</h3>
+				<div class="form-container">
+					<form>
+						<input type="text" name="email" id="recover-email" placeholder="Enter your Email">
+						<input type="text" name="number" id="recover-phone" placeholder="Enter your Phone number">
+						<input type="submit" class="defaul" value="Send">
+						<input type="submit" class="defaul" value="Done">
+					</form>
+				</div>	
+			</section>
+			<section class="form subscribe">
+				<h3>Subscribe Form</h3>
+				<div class="form-container">
+					<form>
+						<input type="text" name="email" id="sub-email" placeholder="Enter your Email">
+						<input type="submit" class="defaul" value="Subscribe">
+						<input type="submit" class="defaul" value="No, Thanks">
+					</form>			
+				</div>
+			</section>
+			<section class="logo logo-footer">
+				<a href="#"><img class="img" src="images/logo-footer.png"></a>
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
